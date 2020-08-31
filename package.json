@@ -1,0 +1,24 @@
+{
+  "name": "you-kaigi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/wilf312/you-kaigi.git",
+  "author": "OkadaGenya <g.okada.wilf+github@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "next",
+    "build": "next build && next export && cd ./out/ && pwd"
+  },
+  "dependencies": {
+    "@types/styled-components": "^5.1.2",
+    "next": "^9.5.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.6.2",
+    "serve": "^11.3.2",
+    "typescript": "^4.0.2"
+  }
+}
